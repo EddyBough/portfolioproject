@@ -1,12 +1,18 @@
-import './App.css'
+import { Routes, Route } from "react-router-dom";
 import './assets/styles/main.scss' // Importez votre fichier CSS global ici
+import HomePage from "../pages/Homepage";
 
 function App() {
   
 
   return (
     <>
-      <div className='text-gray-200'>coucou1</div>
+      <Routes>
+        <Route index path="/" element={<HomePage/>} >
+          
+        </Route>
+        
+      </Routes>
     </>
   )
 }
