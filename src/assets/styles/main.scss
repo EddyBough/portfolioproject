@@ -8,9 +8,26 @@
   src: url(/font/Inter-Bold.ttf);
 }
 
+@font-face {
+  font-family: "semi-bold";
+  src: url(/font/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "black";
+  src: url(/font/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: "semibold";
+  src: url(/font/Inter-SemiBold.ttf);
+}
+
+
 * {
     padding: 0%;
     margin: 0%;
   }
 
   @import url("navmenu.scss");
+  @import url("presentation.scss");
