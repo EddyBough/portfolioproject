@@ -1,0 +1,28 @@
+.service{
+background: rgba(18,24,22,1);
+background: linear-gradient(90deg,rgba(18,24,22,1) 0%, rgba(23,40,37,1) 40%, rgba(28,53,49,1) 80%);
+background: -webkit-linear-gradient(90deg,rgba(18,24,22,1) 0%, rgba(23,40,37,1) 40%, rgba(28,53,49,1) 80%);
+background: -moz-linear-gradient(90deg,rgba(18,24,22,1) 0%, rgba(23,40,37,1) 40%, rgba(28,53,49,1) 80%);
+.custom-hr{
+border-color: #0fdfa1;
+}
+@font-face {
+font-family: "semi-bold";
+src: url(/font/Inter-SemiBold.ttf);
+  }
+h2{
+font-family: "semi-bold";
+}
+.h2txt{
+color: #0fdfa1;
+}
+.bg-card1{
+background-color:#121816 ;
+}
+.bg-card2{
+background: rgba(18,24,22,1);
+background: linear-gradient(180deg,rgba(18,24,22,1) 60%, rgba(28,53,49,1) 90%);
+background: -webkit-linear-gradient(180deg,rgba(18,24,22,1) 60%, rgba(28,53,49,1) 90%);
+background: -moz-linear-gradient(180deg,rgba(18,24,22,1) 60%, rgba(28,53,49,1) 90%);
+}
+}
