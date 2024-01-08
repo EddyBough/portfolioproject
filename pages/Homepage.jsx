@@ -4,6 +4,7 @@ import Navmenu from "../src/components/navmenu";
 import Service from "../src/components/Service";
 import About from "../src/components/About";
 import Creation from "../src/components/Creation";
+import Contact from "../src/components/Contact"
 
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
 			<Service/>
 			<About/>
 			<Creation/>
+			<Contact/>
 		</>
 	);
 };
