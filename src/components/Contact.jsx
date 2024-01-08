@@ -1,3 +1,5 @@
+import toast, { Toaster } from 'react-hot-toast';
+
 function Contact() {
   const submitForm = (event) => {
     event.preventDefault(); // Empêcher le comportement par défaut du formulaire
@@ -19,11 +21,16 @@ function Contact() {
     })
     .then(response => response.json())
     .then(data => {
-        // Traiter la réponse du back-end (peut être vide si vous n'envoyez pas de données)
+        // Traiter la réponse du back-end
         console.log('Success:', data);
+        toast.success('Votre message a été envoyé avec succès!');
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
     })
     .catch((error) => {
         console.error('Error:', error);
+        toast.error('Une erreur s\'est produite lors de l\'envoi du message.');
     });
 };
 
@@ -65,6 +72,20 @@ function Contact() {
         Submit
       </button>
     </form>
+    <Toaster toastOptions={{
+    success: {
+      style: {
+        background: '#121816',
+        color: 'white',
+      },
+    },
+    error: {
+      style: {
+        background: '#121816',
+        color: 'white',
+      },
+    },
+  }} position="bottom-center" />
   </div>
 </div>
 
