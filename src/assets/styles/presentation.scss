@@ -1,8 +1,9 @@
 .presentation{
-    background: rgba(72,173,143,1);
-    background: linear-gradient(90deg,rgba(72,173,143,1) 0%, rgba(28,53,49,1) 80%);
-    background: -webkit-linear-gradient(90deg,rgba(72,173,143,1) 0%, rgba(28,53,49,1) 80%);
-    background: -moz-linear-gradient(90deg,rgba(72,173,143,1) 0%, rgba(28,53,49,1) 80%);
+    background: rgba(18,24,22,1);
+background: linear-gradient(90deg,rgba(18,24,22,1) 0%, rgba(23,40,37,1) 40%, rgba(28,53,49,1) 80%);
+background: -webkit-linear-gradient(90deg,rgba(18,24,22,1) 0%, rgba(23,40,37,1) 40%, rgba(28,53,49,1) 80%);
+background: -moz-linear-gradient(90deg,rgba(18,24,22,1) 0%, rgba(23,40,37,1) 40%, rgba(28,53,49,1) 80%);
+
 
 .custom-hr{
     border-color: #0fdfa1; 
@@ -17,4 +18,45 @@ h3{
 p{
     font-family: "semibold";
 }
+.custom-button{
+  background-color:#5BD1B9;
+}
+
+.micro {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.micro:before,
+.micro:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: solid 3px;
+  background-color: #5BD1B9;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.micro:before {
+  animation: ripple 2s linear infinite;
+}
+
+.micro:after {
+  animation: ripple 2s  linear infinite;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+  
 }
