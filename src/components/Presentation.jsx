@@ -13,7 +13,7 @@ const Presentation = () => {
           <hr className="custom-hr border-t-2 border-b-2 text-center md:w-1/4 w-1/3 my-4 mx-auto md:mx-0" />
           <p className="mb-4 text-white text-s md:h-auto">
           Hello everyone, I&apos;m Eddy and I&apos;m a full-stack developer. <br />
-  I have a good understanding of programming and have worked on many amazing projects. <br />
+  I&apos;m specialized in React JS and Symfony and have worked on many amazing projects. <br />
   I&apos;m always learning and growing, which is one of the things I love most about my job. <br /> 
   You can check out some of my work below.
           </p>
