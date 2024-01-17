@@ -5,6 +5,7 @@ import Service from "../src/components/Service";
 import About from "../src/components/About";
 import Creation from "../src/components/Creation";
 import Contact from "../src/components/Contact"
+import Footer from "../src/components/Footer";
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
 			<About/>
 			<Creation/>
 			<Contact/>
+			<Footer/>
 		</>
 	);
 };
