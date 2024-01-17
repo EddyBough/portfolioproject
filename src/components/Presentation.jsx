@@ -1,8 +1,6 @@
-import "../assets/styles/presentation.scss";
-
 const Presentation = () => {
   return (
-    <div className="presentation flex flex-col md:flex-row">
+    <div id="presentationSection" className="presentation flex flex-col md:flex-row">
       {/* Div de gauche */}
       <div className="  p-8 md:w-1/2 md:h-auto">
         <div className="text-center md:text-left md:ml-5 md:mt-14">

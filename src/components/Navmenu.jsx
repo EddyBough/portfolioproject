@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import '../assets/styles/navmenu.scss';
+import { Link as ScrollLink } from "react-scroll";
+
 
 const Navmenu = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -24,30 +25,30 @@ const Navmenu = () => {
           <div className="md:ml-auto md:mt-14"> {/* Utiliser 'ml-auto' pour déplacer le menu à droite */}
             {/* Menu pour les écrans moyens et grands */}
             <ul className="md:flex space-x-8 md:mr-14 sm: hidden">
-              <li>
-                <a id="home" href="#" onClick={closeMenu}>
+              <li className='cursor-pointer'>
+              <ScrollLink to="presentationSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
                   HOME
-                </a>
+                  </ScrollLink> 
               </li>
-              <li>
-                <a href="#" onClick={closeMenu}>
-                  ABOUT ME
-                </a>
+              <li className='cursor-pointer'>
+              <ScrollLink to="aboutMeSection" smooth={true} duration={500} activeClass="active-link" offset={-70}>
+                ABOUT ME
+              </ScrollLink>
               </li>
-              <li>
-                <a href="#" onClick={closeMenu}>
+              <li className='cursor-pointer'>
+              <ScrollLink to="serviceSection" smooth={true} duration={500} activeClass="active-link" offset={-230}>
                   SERVICES
-                </a>
+                  </ScrollLink>
               </li>
-              <li>
-                <a href="#" onClick={closeMenu}>
+              <li className='cursor-pointer'>
+              <ScrollLink to="portfolioSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
                   PORTFOLIO
-                </a>
+                  </ScrollLink>
               </li>
-              <li>
-                <a href="#" onClick={closeMenu}>
+              <li className='cursor-pointer'>
+              <ScrollLink to="contactSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
                   CONTACT ME
-                </a>
+                  </ScrollLink>
               </li>
             </ul>
 
@@ -66,30 +67,30 @@ const Navmenu = () => {
             {/* Menu pour les petits écrans */}
             {isMenuOpen && (
               <ul className="md:hidden flex flex-col space-y-3 items-center mt-2">
-                <li>
-                  <a id="home" href="#" onClick={closeMenu}>
+                <li className='cursor-pointer'>
+                <ScrollLink to="presentationSection" smooth={true} duration={500} activeClass="active-link" offset={-270} onClick={closeMenu}>
                     HOME
-                  </a>
+                    </ScrollLink> 
                 </li>
                 <li>
-                  <a href="#" onClick={closeMenu}>
-                    ABOUT ME
-                  </a>
+                <ScrollLink to="aboutMeSection" smooth={true} duration={500} activeClass="active-link" offset={-60} onClick={closeMenu}>
+                ABOUT ME
+              </ScrollLink>
+                </li>
+                <li className='cursor-pointer'>
+              <ScrollLink to="serviceSection" smooth={true} duration={500} activeClass="active-link" offset={-230} onClick={closeMenu}>
+                  SERVICES
+                  </ScrollLink>
                 </li>
                 <li>
-                  <a href="#" onClick={closeMenu}>
-                    SERVICES
-                  </a>
-                </li>
-                <li>
-                  <a href="#" onClick={closeMenu}>
+                <ScrollLink to="portfolioSection" smooth={true} duration={500} activeClass="active-link" offset={-250} onClick={closeMenu}>
                     PORTFOLIO
-                  </a>
+                    </ScrollLink>
                 </li>
-                <li className='m-1 pb-5'>
-                  <a href="#" onClick={closeMenu}>
+                <li className='cursor-pointer m-1 pb-5'>
+                <ScrollLink to="contactSection" smooth={true} duration={500} activeClass="active-link" offset={-250} onClick={closeMenu}>
                     CONTACT ME
-                  </a>
+                    </ScrollLink>
                 </li>
               </ul>
             )}

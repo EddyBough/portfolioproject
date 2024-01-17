@@ -2,7 +2,7 @@
 
 const Creation = () => {
   return (
-    <div className="creation flex flex-col items-center space-y-5">
+    <div id="portfolioSection" className="creation flex flex-col items-center space-y-5">
     <h3 className="mt-8">PORTFOLIO</h3>
     <h4 className="text-white md:text-4xl text-2xl">LATEST PROJECT</h4>
     <hr className="custom-hr border-t-2 border-b-2 text-center md:w-1/6 w-1/3 my-4 mx-auto" />

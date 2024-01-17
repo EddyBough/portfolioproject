@@ -1,6 +1,6 @@
 const Services = () => {
     return (
-      <div className="service md:p-20 flex flex-col md:flex-row">
+      <div id="serviceSection" className="service md:p-20 flex flex-col md:flex-row">
       {/* Div de gauche */}
       <div className="flex flex-col justify-center it md:w-1/2">
         <div className="flex justify-center">

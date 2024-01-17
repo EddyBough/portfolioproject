@@ -15,18 +15,16 @@ a:hover {
       color: #48AD8F;
     }
     .burger-icon {
-      font-size: 24px; // Taille de la police
-      color: white; // Couleur de l'icône
-      cursor: pointer; // Curseur au survol
-      transition: color 0.3s; // Transition de couleur
+      font-size: 24px; 
+      color: white; 
+      cursor: pointer; 
+      transition: color 0.3s; 
     }
     
     .burger-icon:active {
-      // Ajoutez vos styles d'effet ici
-      // Par exemple, changez la couleur ou la taille pendant le clic
       transform: scale(1.2);
-      color: #48AD8F; // exemple de couleur différente pendant le clic
-      // Autres styles...
+      color: #48AD8F; 
+      
     }
     
   }
