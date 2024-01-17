@@ -2,7 +2,7 @@
 
 const About = () => {
   return (
-    <div className="about md:flex flex-row">
+    <div id="aboutMeSection" className="about md:flex flex-row">
     {/* Div de gauche */}
     <div className="md:h-auto">
         <img className="h-full object-cover" src="/img/futurepic.svg" alt="futurepicture" />
