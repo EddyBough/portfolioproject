@@ -18,7 +18,7 @@ const Services = () => {
       </div>
   
       {/* Div de droite */}
-      <div className="flex flex-col mt-8 md:flex md:justify-center md:mt-10 items-center md:w-screen">
+      <div className="flex flex-col md:mt-4 md:flex md:justify-center p-12 md:p-9 items-center md:w-screen">
     <div className="flex flex-col md:flex-row">
       {/* Première Card */}
       <div className="bg-card1 flex h-36 w-56 flex-col items-center p-4 rounded-md mb-4 md:mr-8">
@@ -27,9 +27,9 @@ const Services = () => {
       </div>
   
       {/* Deuxième Card */}
-      <div className="bg-card2 flex h-36 w-56 flex-col items-center p-4 rounded-md mb-4 md:ml-4">
+      <div className="bg-card2 flex h-36 w-56 flex-col items-center text-center p-4 rounded-md mb-4 md:ml-4">
         <img src="/public/img/website.png" alt="website" />
-        <p className="text-white p-3">Website Conception</p>
+        <p className="text-white p-3">Website & Applications</p>
       </div>
     </div>
   
