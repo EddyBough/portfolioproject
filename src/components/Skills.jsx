@@ -32,7 +32,7 @@ const Skills = () => {
     <div className="skills text-white flex flex-col justify-center">
       <div className="flex justify-center items-center">
         <h2 className="mt-8">SKILLS</h2>
-        <span id="arrow" className={`ml-2 mt-8 md:hidden transform ${showSkills ? 'rotate-180' : ''}`} onClick={toggleSkills}>
+        <span id="arrow" className={`ml-2 mt-8 animate-bounce md:hidden transform`} onClick={toggleSkills}>
           &#9660;
         </span>
       </div>
@@ -66,6 +66,7 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
 
 
