@@ -18,7 +18,7 @@ const Navmenu = () => {
       <div className="text-white md:p-4">
         <div className="md:flex justify-between items-center">
           <div className="flex justify-center"> {/* Utiliser 'items-center' pour aligner le logo au centre */}
-            <a href="http://">
+            <a href="/">
               <img src="/img/logo1v2.png" alt="Logo" className="md:h-32 md:mt-0 mt-3 sm: h-14" />
             </a>
           </div>

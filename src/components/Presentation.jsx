@@ -16,7 +16,7 @@ const Presentation = () => {
   You can check out some of my work below.
           </p>
           <div className="flex justify-center md:justify-start">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="/img/myCV.pdf" target="_blank" rel="noopener noreferrer">
             <div className="w-20 h-20 relative">
   <div className="custom-button absolute w-full h-full rounded-full micro"></div>
   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
