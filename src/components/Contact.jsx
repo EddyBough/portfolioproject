@@ -2,7 +2,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 function Contact() {
   const submitForm = (event) => {
-    event.preventDefault(); // Empêcher le comportement par défaut du formulaire
+    event.preventDefault(); 
 
     // Récupérer les données du formulaire
     var formData = {
