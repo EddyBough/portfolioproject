@@ -17,12 +17,12 @@ const Navmenu = () => {
     <div className="navmenu">
       <div className="text-white md:p-4">
         <div className="md:flex justify-between items-center">
-          <div className="flex justify-center"> {/* Utiliser 'items-center' pour aligner le logo au centre */}
+          <div className="flex justify-center"> 
             <a href="/">
               <img src="/img/logo1v2.png" alt="Logo" className="md:h-32 md:mt-0 mt-3 sm: h-14" />
             </a>
           </div>
-          <div className="md:ml-auto md:mt-14"> {/* Utiliser 'ml-auto' pour déplacer le menu à droite */}
+          <div className="md:ml-auto md:mt-14"> 
             {/* Menu pour les écrans moyens et grands */}
             <ul className="md:flex space-x-8 md:mr-14 sm: hidden">
               <li className='cursor-pointer'>
@@ -60,7 +60,7 @@ const Navmenu = () => {
                   isMenuOpen ? 'animate__flipInX' : 'animate__flipInY'
                 }`}
               >
-                <span className="text-5xl ">&#8801;</span> {/* Icône de burger */}
+                <span className="text-5xl ">&#8801;</span> 
               </button>
             </div>
 
