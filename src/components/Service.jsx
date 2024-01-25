@@ -4,15 +4,12 @@ const Services = () => {
       {/* Div de gauche */}
       <div className="flex flex-col justify-center it md:w-1/2">
         <div className="flex justify-center">
-          {/* Titre */}
           <h2 className="h2txt mt-16 md:mt-16">MY SERVICES</h2>
         </div>
         <div className="flex justify-center">
-          {/* Sous-titre */}
           <h3 className="text-white text-3xl mt-8">What I Do</h3>
         </div>
         <div>
-          {/* HR */}
           <hr className="custom-hr mt-8 border-t-2 border-b-2 text-center md:w-1/6 w-1/3 my-4 mx-auto" />
         </div>
       </div>

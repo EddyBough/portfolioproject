@@ -4,7 +4,7 @@ const Footer = () => {
     return (
       <div className="footer flex flex-col h-96 space-y-10 items-center justify-center">
         <div className="">
-          <img className="w-16 h-16" src="/img/logo1v3.png" alt="" />
+          <a href="/"><img className="w-16 h-16" src="/img/logo1v3.png" alt="" /></a>
         </div>
         <div>
           <ul className="flex flex-row md:justify-center md:space-x-4 space-x-3 md:text-sm text-[12px] text-white">
