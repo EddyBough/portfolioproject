@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="/"><img className="w-16 h-16" src="/img/logo1v3.png" alt="" /></a>
       </div>
       <div>
-        <ul className="flex flex-row md:justify-center md:space-x-4 space-x-3 md:text-sm text-[12px] text-white">
+        <ul className="flex flex-row md:justify-center md:space-x-4 space-x-3 md:text-sm text-[10px] text-white">
           <li className='cursor-pointer'>
             <ScrollLink to="presentationSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
               <FormattedMessage id="home" />

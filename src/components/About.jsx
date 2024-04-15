@@ -11,7 +11,7 @@ const About = () => {
       {/* Div de droite */}
       <div className="flex flex-col justify-center items-center md:items-start md:ml-10">
         <div className="space-y-8 text-center md:mt-0 mt-10 md:text-left m-2">
-          <h3 className='text-2xl'><FormattedMessage id="AboutMe" /></h3>
+          <h3 className='text-xl'><FormattedMessage id="AboutMe" /></h3>
           <h4 className="md:text-4xl text-2xl text-white"><FormattedMessage id="reinventingMyself" /></h4>
           <hr className="custom-hr border-t-2 border-b-2 my-4 m-20 md:mx-0 md:w-1/4" />
           <p className="text-white text-s">
