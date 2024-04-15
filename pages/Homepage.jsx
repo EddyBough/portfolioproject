@@ -1,6 +1,6 @@
 import Presentation from "../src/components/Presentation";
 import Skills from "../src/components/Skills";
-import Navmenu from "../src/components/navmenu";
+import Navmenu from "../src/components/Navmenu";
 import Service from "../src/components/Service";
 import About from "../src/components/About";
 import Creation from "../src/components/Creation";
