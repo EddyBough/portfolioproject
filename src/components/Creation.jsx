@@ -6,7 +6,7 @@ const Creation = () => {
       <h3 id="portfolioTitle" className="mt-8 text-xl"><FormattedMessage id="portfolioTitle" /></h3>
       <h4 id="latestProjectTitle" className="text-white md:text-4xl text-2xl"><FormattedMessage id="latestProjectTitle" /></h4>
       <hr className="custom-hr border-t-2 border-b-2 text-center md:w-1/6 w-1/3 my-4 mx-auto" />
-      <div className="container mx-auto p-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+      <div className="container mx-auto p-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
         {/* Carte 1 */}
         <div className=" flex flex-col items-center p-4">
           {/* Contenu de la carte */}
@@ -25,6 +25,14 @@ const Creation = () => {
             <img className="w-1/2" src="img/odb.png" alt="odb" />
           </a>
           <p id="twigNodeJSDescription" className="text-white mt-2"><FormattedMessage id="twigNodeJSDescription" /></p>
+        </div>
+
+        {/* Carte 3 */}
+        <div className="p-4 flex flex-col items-center">
+          {/* Contenu de la carte */}
+          <h3 className="text-xl font-semibold mb-2">Free Driving</h3>
+            <img className="w-1/2" src="img/freedriving2.png" alt="freedriving" />
+          <p className="text-white mt-2"><FormattedMessage id="freedrivingsoon" /></p>
         </div>
         
       </div>
