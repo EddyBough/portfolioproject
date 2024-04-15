@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer flex flex-col h-96 space-y-10 items-center justify-center">
       <div className="">
-        <a href="/"><img className="w-16 h-16" src="/img/logo1v3.png" alt="" /></a>
+        <a href="/"><img className="w-16 h-16" src="/img/logo1v3.png" alt="logo" /></a>
       </div>
       <div>
         <ul className="flex flex-row md:justify-center md:space-x-4 space-x-3 md:text-sm text-[10px] text-white">
@@ -37,10 +37,11 @@ const Footer = () => {
         </ul>
       </div>
       <div className="flex flex-row justify-center md:space-x-8 space-x-6">
-        <img src="/img/facebook.svg" alt="fb" />
-        <img src="/img/x.svg" alt="x" />
+        <a href="http://github.com/EddyBough?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <img className="h-11" src="/img/github2.svg" alt="github" />
+          </a>
         <a href="http://www.linkedin.com/in/eddy-boughanmi" target="_blank" rel="noopener noreferrer">
-          <img src="/img/linkedin.svg" alt="linkedin" />
+          <img className="h-11" src="/img/linkedin2.svg" alt="linkedin" />
         </a>
       </div>
       <div className="flex flex-row md:text-sm text-[12px] text-white">
