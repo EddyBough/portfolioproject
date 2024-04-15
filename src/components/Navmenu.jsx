@@ -1,8 +1,12 @@
 import { useState } from 'react';
 import { Link as ScrollLink } from "react-scroll";
+import { FormattedMessage } from 'react-intl';
+import LanguageSwitcher from './LanguageSwitcher';
+
 
 
 const Navmenu = () => {
+  
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -15,6 +19,7 @@ const Navmenu = () => {
 
   return (
     <div className="navmenu">
+      
       <div className="text-white md:p-4">
         <div className="md:flex justify-between items-center">
           <div className="flex justify-center"> 
@@ -26,29 +31,32 @@ const Navmenu = () => {
             {/* Menu pour les écrans moyens et grands */}
             <ul className="md:flex space-x-8 md:mr-14 sm: hidden">
               <li className='cursor-pointer'>
-              <ScrollLink to="presentationSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
-                  HOME
-                  </ScrollLink> 
+                <ScrollLink to="presentationSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
+                  <FormattedMessage id="home" />
+                </ScrollLink> 
               </li>
               <li className='cursor-pointer'>
-              <ScrollLink to="aboutMeSection" smooth={true} duration={500} activeClass="active-link" offset={-70}>
-                ABOUT ME
-              </ScrollLink>
+                <ScrollLink to="aboutMeSection" smooth={true} duration={500} activeClass="active-link" offset={-70}>
+                  <FormattedMessage id="aboutMe" />
+                </ScrollLink>
               </li>
               <li className='cursor-pointer'>
-              <ScrollLink to="serviceSection" smooth={true} duration={500} activeClass="active-link" offset={-230}>
-                  SERVICES
-                  </ScrollLink>
+                <ScrollLink to="serviceSection" smooth={true} duration={500} activeClass="active-link" offset={-230}>
+                  <FormattedMessage id="services" />
+                </ScrollLink>
               </li>
               <li className='cursor-pointer'>
-              <ScrollLink to="portfolioSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
-                  PORTFOLIO
-                  </ScrollLink>
+                <ScrollLink to="portfolioSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
+                  <FormattedMessage id="portfolio" />
+                </ScrollLink>
               </li>
               <li className='cursor-pointer'>
-              <ScrollLink to="contactSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
-                  CONTACT ME
-                  </ScrollLink>
+                <ScrollLink to="contactSection" smooth={true} duration={500} activeClass="active-link" offset={-130}>
+                  <FormattedMessage id="contactMe" />
+                </ScrollLink>
+              </li>
+              <li className="hidden md:block">
+            <LanguageSwitcher/>
               </li>
             </ul>
 
@@ -68,30 +76,33 @@ const Navmenu = () => {
             {isMenuOpen && (
               <ul className="md:hidden flex flex-col space-y-3 items-center mt-2">
                 <li className='cursor-pointer'>
-                <ScrollLink to="presentationSection" smooth={true} duration={500} activeClass="active-link" offset={-270} onClick={closeMenu}>
-                    HOME
-                    </ScrollLink> 
+                  <ScrollLink to="presentationSection" smooth={true} duration={500} activeClass="active-link" offset={-270} onClick={closeMenu}>
+                    <FormattedMessage id="home" />
+                  </ScrollLink> 
                 </li>
                 <li>
-                <ScrollLink to="aboutMeSection" smooth={true} duration={500} activeClass="active-link" offset={-60} onClick={closeMenu}>
-                ABOUT ME
-              </ScrollLink>
+                  <ScrollLink to="aboutMeSection" smooth={true} duration={500} activeClass="active-link" offset={-60} onClick={closeMenu}>
+                    <FormattedMessage id="aboutMe" />
+                  </ScrollLink>
                 </li>
                 <li className='cursor-pointer'>
-              <ScrollLink to="serviceSection" smooth={true} duration={500} activeClass="active-link" offset={-230} onClick={closeMenu}>
-                  SERVICES
+                  <ScrollLink to="serviceSection" smooth={true} duration={500} activeClass="active-link" offset={-230} onClick={closeMenu}>
+                    <FormattedMessage id="services" />
                   </ScrollLink>
                 </li>
                 <li>
-                <ScrollLink to="portfolioSection" smooth={true} duration={500} activeClass="active-link" offset={-250} onClick={closeMenu}>
-                    PORTFOLIO
-                    </ScrollLink>
+                  <ScrollLink to="portfolioSection" smooth={true} duration={500} activeClass="active-link" offset={-250} onClick={closeMenu}>
+                    <FormattedMessage id="portfolio" />
+                  </ScrollLink>
                 </li>
-                <li className='cursor-pointer m-1 pb-5'>
-                <ScrollLink to="contactSection" smooth={true} duration={500} activeClass="active-link" offset={-250} onClick={closeMenu}>
-                    CONTACT ME
-                    </ScrollLink>
+                <li className='cursor-pointer'>
+                  <ScrollLink to="contactSection" smooth={true} duration={500} activeClass="active-link" offset={-250} onClick={closeMenu}>
+                    <FormattedMessage id="contactMe" />
+                  </ScrollLink>
                 </li>
+                <li className="md:hidden lg:hidden p-1">
+              <LanguageSwitcher/>
+            </li>
               </ul>
             )}
           </div>
@@ -102,6 +113,7 @@ const Navmenu = () => {
 };
 
 export default Navmenu;
+
 
 
 
