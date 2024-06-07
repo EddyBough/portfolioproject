@@ -4,23 +4,22 @@ import Navmenu from "../src/components/Navmenu";
 import Service from "../src/components/Service";
 import About from "../src/components/About";
 import Creation from "../src/components/Creation";
-import Contact from "../src/components/Contact"
+import Contact from "../src/components/Contact";
 import Footer from "../src/components/Footer";
 
-
 const HomePage = () => {
-	return (
-		<>
-			<Navmenu />
-			<Presentation />
-			<Skills />
-			<Service/>
-			<About/>
-			<Creation/>
-			<Contact/>
-			<Footer/>
-		</>
-	);
+  return (
+    <>
+      <Navmenu />
+      <Presentation />
+      <Skills />
+      <Service />
+      <About />
+      <Creation />
+      <Contact />
+      <Footer />
+    </>
+  );
 };
 
 export default HomePage;
