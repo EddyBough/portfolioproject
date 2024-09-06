@@ -2,15 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: "inter-bold";
   src: url(/font/Inter-Bold.ttf);
-}
-
-@font-face {
-  font-family: "semi-bold";
-  src: url(/font/Inter-SemiBold.ttf);
 }
 
 @font-face {
@@ -23,17 +17,17 @@
   src: url(/font/Inter-SemiBold.ttf);
 }
 
-
 * {
-    padding: 0%;
-    margin: 0%;
-  }
+  padding: 0%;
+  margin: 0%;
+}
 
-  @import url("navmenu.scss");
-  @import url("presentation.scss");
-  @import url("skills.scss");
-  @import url("services.scss");
-  @import url("about.scss");
-  @import url("creation.scss");
-  @import url("contact.scss");
-  @import url("footer.scss");
+@import url("navmenu.scss");
+
+@import url("skills.scss");
+@import url("services.scss");
+@import url("about.scss");
+@import url("creation.scss");
+@import url("contact.scss");
+@import url("footer.scss");
+@import url("aurorabackgrounddemo.scss");

@@ -1,11 +1,6 @@
 {
-  "creativeDeveloperFullstack": "FULLSTACK WEB DEVELOPER",
-  "creativeDeveloper": "CREATIVE DEVELOPER",
-  "introPart1": "Hello everyone, I'm Eddy and I'm a full-stack developer.",
-  "introPart2": "I specialize in React JS & Symfony and have worked on many incredible projects.",
-  "introPart3": "Always learning and growing, that's what I love about this profession which is a passion.",
-  "introPart4": "You can see my projects below on this page.",
-  "clickHereToSeeCV": "Click here to view my CV",
+  "welcome": "Welcome",
+  "descriptionOne": "I am Eddy, a passionate Fullstack Web Developer, specialized in JavaScript. I develop websites and mobile applications. Let me guide you and enjoy my work!",
   "home": "HOME",
   "aboutMe": "ABOUT ME",
   "services": "SERVICES",
@@ -47,8 +42,3 @@
   "allRightsReserved": "© 2024 Eddy Boughanmi. All Rights Reserved.",
   "freedrivingsoon": "Vite JS & Symfony (soon)"
 }
-
-  
-  
-  
-  
