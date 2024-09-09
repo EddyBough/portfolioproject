@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "../ui/AuroraBackground";
 import { FormattedMessage } from "react-intl";
+import ButtonCV from "../buttons/ButtonCV";
 
 export function AuroraBackgroundDemo() {
   return (
@@ -27,6 +28,13 @@ export function AuroraBackgroundDemo() {
           <p>
             <FormattedMessage id="descriptionOne" />
           </p>
+        </div>
+        <div className=" lg:py-8 md:py-8 py-7">
+          <ButtonCV
+            href="/img/CV.pdf"
+            className=""
+            text={<FormattedMessage id="CV" />}
+          />
         </div>
       </motion.div>
     </AuroraBackground>
