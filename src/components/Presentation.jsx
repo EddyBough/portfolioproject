@@ -1,5 +1,4 @@
-import { FormattedMessage } from "react-intl";
-import { AuroraBackgroundDemo } from "./AuroraBackgroundDemo";
+import { AuroraBackgroundDemo } from "../components/ui/AuroraBackgroundDemo";
 
 const Presentation = () => {
   return (
