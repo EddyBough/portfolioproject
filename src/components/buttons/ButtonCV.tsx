@@ -17,7 +17,7 @@ const ButtonCV: React.FC<ButtonCVProps> = ({ href, title, text }) => {
         target="_blank"
         rel="noopener noreferrer"
         title={title}
-        className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gradient-to-r from-[#121816] via-[#172825] to-[#1c3531] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+        className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gradient-to-r from-[#121816] via-[#172825] to-[#1c3531] font-pj rounded-xl focus:outline-none focus-visible:ring-2 focus:ring-offset-2 focus:ring-gray-900"
         role="button"
       >
         {text}

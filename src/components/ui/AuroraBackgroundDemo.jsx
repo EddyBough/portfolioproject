@@ -31,7 +31,7 @@ export function AuroraBackgroundDemo() {
         </div>
         <div className=" lg:py-8 md:py-8 py-7">
           <ButtonCV
-            href="/img/cv.pdf"
+            href="/img/curriculumvitae.pdf"
             className=""
             text={<FormattedMessage id="CV" />}
           />
