@@ -5,10 +5,10 @@ const Services = () => {
   return (
     <div
       id="serviceSection"
-      className="service md:p-20 flex flex-col md:flex-row"
+      className="service md:p-20 flex flex-col lg:flex-row"
     >
       {/* Div de gauche */}
-      <div className="flex flex-col justify-center md:w-1/2">
+      <div className="flex flex-col justify-center lg:w-1/2">
         <div className="flex justify-center">
           <h2 className="h2txt text-xl mt-16 md:mt-16">
             <FormattedMessage id="myServices" />
@@ -24,9 +24,9 @@ const Services = () => {
         </div>
       </div>
 
-      {/* Div de droite - cartes par MeteorsDemo */}
-      <div className="flex flex-col md:mt-4 md:flex md:justify-center p-12 md:p-9 items-center md:w-screen">
-        <div className="flex flex-col md:flex-row lg:flex-row md:space-x-32 space-y-8 md:space-y-0 lg:space-y-0">
+      {/* Div de droite */}
+      <div className="flex flex-col md:mt-4 p-12 md:p-9 items-center w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-6 ">
           <MeteorsDemo
             imageSrc="/img/website.png"
             title={<FormattedMessage id="websiteMobileAppsTitle" />}
@@ -38,7 +38,7 @@ const Services = () => {
             description={<FormattedMessage id="brandIdentityDescription" />}
           />
         </div>
-        <div className="flex flex-col md:flex-row lg:flex-row md:space-x-32 mt-8 md:mt-6 space-y-8 md:space-y-0 lg:space-y-0">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-6  mt-8 md:gap-10">
           <MeteorsDemo
             imageSrc="/img/uxdesign.png"
             title={<FormattedMessage id="uiUxDesignTitle" />}
