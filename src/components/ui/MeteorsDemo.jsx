@@ -4,7 +4,7 @@ import { Meteors } from "./Meteor";
 export function MeteorsDemo({ imageSrc, title, description }) {
   return (
     <div className="w-full relative max-w-xs">
-      <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-green-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl"></div>
       <div className="relative shadow-xl bg-card1 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col items-center">
         {imageSrc && (
           <img
