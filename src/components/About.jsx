@@ -6,8 +6,8 @@ const About = () => {
       {/* Div de gauche */}
       <div className="md:h-auto">
         <img
-          className="h-full object-cover"
-          src="/img/futurepic.svg"
+          className="h-auto lg:h-[800px] lg:w-[550px] md:h-full md:w-[800px] md:object-cover lg:object-cover"
+          src="/img/onthemoon2.png"
           alt="futurepicture"
         />
       </div>
