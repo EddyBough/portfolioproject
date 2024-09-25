@@ -10,7 +10,7 @@ const ButtonCV: React.FC<ButtonCVProps> = ({ href, title, text }) => {
   return (
     <div className="relative inline-flex group">
       {/* Dégradé à l'extérieur du bouton */}
-      <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] rounded-xl blur-3xl opacity-70 group-hover:opacity-100 group-hover:scale-[0.85] transition-all duration-200"></div>
+      <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-green-500 to-teal-500 transform scale-[0.80] rounded-xl blur-3xl opacity-70 group-hover:opacity-100 group-hover:scale-[0.85] transition-all duration-200"></div>
       {/* Bouton avec le dégradé interne */}
       <a
         href={href}
