@@ -29,7 +29,10 @@ function Contact() {
   };
 
   return (
-    <div id="contactSection" className="contact p-8 md:flex">
+    <div
+      id="contactSection"
+      className="contact lg:pt-28 pt-20 pb-9 p-8 md:flex"
+    >
       <div className="md:w-1/2 flex justify-start md:ml-10 md:order-2">
         <div className="md:w-1/2 flex flex-col md:justify-center">
           <div className="flex flex-col sm:justify-center text-center space-y-3 md:text-left lg:text-left md:m-0 m-5">
