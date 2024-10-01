@@ -45,5 +45,18 @@
   "yourMessage": "Your Message",
   "submit": "Submit",
   "allRightsReserved": "© 2024 Eddy Boughanmi. All Rights Reserved.",
-  "freedrivingsoon": "Vite JS & Symfony (soon)"
+  "freedrivingsoon": "Vite JS & Symfony (soon)",
+  "projectEnglishTchaiTitle": "My English Tchai",
+  "projectEnglishTchaiDescription": "My English Tchai is an innovative project created for a client to offer a unique English learning experience in the comfortable setting of a tea lounge. Developed with Vite.js for the frontend and Symfony for the backend, the project features a modern architecture, including GraphQL and an API built with API Platform. Users can book sessions with teachers by selecting suitable time slots. The payment system is fully integrated via Stripe, and a comprehensive profile management system provides a seamless and personalized experience. This project was delivered as part of a modern, practical language learning solution.",
+  "projectFreeDrivingTitle": "Free Driving",
+  "projectFreeDrivingDescription": "Free Driving is a project created for a client who owns a driving school. It showcases my web development skills and commitment to creating functional and accessible solutions. Developed with Vite.js for the frontend and Symfony for the backend, it includes a REST API for managing user data and courses, Auth0 for user authentication, and Brevo Conversations for real-time communication between teachers and students. A profile management system, lesson history, and Stripe integration for online payments are also included.",
+  "titleODB": "ODB - On the Care Side",
+  "descriptionODB": "ODB is a modern web application created for a client, combining efficient user, service, and appointment management with a clear user interface and secure backend. I used Twig for page rendering, CSS for design, Node.js for the backend, and Express Session for secure session management. This app is designed to meet the needs of the barbershop, offering flexibility in data management through MongoDB. A complete revamp in Next.js is underway.",
+  "titleCapsuleHR": "Capsule HR",
+  "descriptionCapsuleRH": "Capsule HR is a web application designed for human resource management. The project uses Twig for page rendering, CSS for design, and Node.js for the backend. This project provides an efficient way to manage HR processes and is tailored to meet the organizational needs of the client.",
+  "titleMorpion": "Tic Tac Toe Game",
+  "descriptionTicTacToe": "The Tic Tac Toe project is a small game created using HTML for page rendering, JavaScript for scripting the game logic, and CSS for the design. This fun project is designed to give players a simple and enjoyable gaming experience, with an added theme based on the Pokémon universe.",
+  "Close": "Close",
+  "GitHub": "GitHub",
+  "View": "View"
 }

@@ -7,6 +7,15 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        "custom-gradient-green":
+          "linear-gradient(90deg, rgba(18,24,22,1) 0%, rgba(23,40,37,1) 40%, rgba(28,53,49,1) 80%)",
+      },
+      colors: {
+        "custom-dark": "#121816",
+        "custom-green": "#0fdfa1",
+        "custom-red": "#900606",
+      },
       animation: {
         aurora: "aurora 60s linear infinite",
         "meteor-effect": "meteor 5s linear infinite",
