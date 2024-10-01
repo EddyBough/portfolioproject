@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navmenu = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const location = useLocation(); // Récupère l'emplacement actuel
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -14,6 +15,19 @@ const Navmenu = () => {
 
   const closeMenu = () => {
     setMenuOpen(false);
+  };
+
+  // Function to redirect to the targeted component whatever we are in any pages
+  const handleRedirectToHome = (sectionId) => {
+    if (location.pathname !== "/") {
+      navigate("/", { replace: true });
+      setTimeout(() => {
+        // setTimeout to let some time until ScrollLink is activated
+        document
+          .getElementById(sectionId)
+          ?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
   };
 
   return (
@@ -52,9 +66,11 @@ const Navmenu = () => {
                     <FormattedMessage id="home" />
                   </ScrollLink>
                 ) : (
-                  <Link to="/" onClick={closeMenu}>
+                  <button
+                    onClick={() => handleRedirectToHome("presentationSection")}
+                  >
                     <FormattedMessage id="home" />
-                  </Link>
+                  </button>
                 )}
               </li>
               <li className="cursor-pointer">
@@ -69,9 +85,11 @@ const Navmenu = () => {
                     <FormattedMessage id="aboutMe" />
                   </ScrollLink>
                 ) : (
-                  <Link to="/" onClick={closeMenu}>
+                  <button
+                    onClick={() => handleRedirectToHome("aboutMeSection")}
+                  >
                     <FormattedMessage id="aboutMe" />
-                  </Link>
+                  </button>
                 )}
               </li>
               <li className="cursor-pointer">
@@ -86,9 +104,11 @@ const Navmenu = () => {
                     <FormattedMessage id="services" />
                   </ScrollLink>
                 ) : (
-                  <Link to="/" onClick={closeMenu}>
+                  <button
+                    onClick={() => handleRedirectToHome("serviceSection")}
+                  >
                     <FormattedMessage id="services" />
-                  </Link>
+                  </button>
                 )}
               </li>
               <li className="cursor-pointer">
@@ -103,9 +123,11 @@ const Navmenu = () => {
                     <FormattedMessage id="portfolio" />
                   </ScrollLink>
                 ) : (
-                  <Link to="/" onClick={closeMenu}>
+                  <button
+                    onClick={() => handleRedirectToHome("portfolioSection")}
+                  >
                     <FormattedMessage id="portfolio" />
-                  </Link>
+                  </button>
                 )}
               </li>
               <li className="cursor-pointer">
@@ -120,9 +142,11 @@ const Navmenu = () => {
                     <FormattedMessage id="contactMe" />
                   </ScrollLink>
                 ) : (
-                  <Link to="/" onClick={closeMenu}>
+                  <button
+                    onClick={() => handleRedirectToHome("contactSection")}
+                  >
                     <FormattedMessage id="contactMe" />
-                  </Link>
+                  </button>
                 )}
               </li>
               <li className="p-1">
@@ -154,9 +178,11 @@ const Navmenu = () => {
                   <FormattedMessage id="home" />
                 </ScrollLink>
               ) : (
-                <Link to="/">
+                <button
+                  onClick={() => handleRedirectToHome("presentationSection")}
+                >
                   <FormattedMessage id="home" />
-                </Link>
+                </button>
               )}
             </li>
             <li className="cursor-pointer">
@@ -170,9 +196,9 @@ const Navmenu = () => {
                   <FormattedMessage id="aboutMe" />
                 </ScrollLink>
               ) : (
-                <Link to="/">
+                <button onClick={() => handleRedirectToHome("aboutMeSection")}>
                   <FormattedMessage id="aboutMe" />
-                </Link>
+                </button>
               )}
             </li>
             <li className="cursor-pointer">
@@ -186,9 +212,9 @@ const Navmenu = () => {
                   <FormattedMessage id="services" />
                 </ScrollLink>
               ) : (
-                <Link to="/">
+                <button onClick={() => handleRedirectToHome("serviceSection")}>
                   <FormattedMessage id="services" />
-                </Link>
+                </button>
               )}
             </li>
             <li className="cursor-pointer">
@@ -202,9 +228,11 @@ const Navmenu = () => {
                   <FormattedMessage id="portfolio" />
                 </ScrollLink>
               ) : (
-                <Link to="/">
+                <button
+                  onClick={() => handleRedirectToHome("portfolioSection")}
+                >
                   <FormattedMessage id="portfolio" />
-                </Link>
+                </button>
               )}
             </li>
             <li className="cursor-pointer">
@@ -218,9 +246,9 @@ const Navmenu = () => {
                   <FormattedMessage id="contactMe" />
                 </ScrollLink>
               ) : (
-                <Link to="/">
+                <button onClick={() => handleRedirectToHome("contactSection")}>
                   <FormattedMessage id="contactMe" />
-                </Link>
+                </button>
               )}
             </li>
             <li className="block">

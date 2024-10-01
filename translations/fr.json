@@ -35,6 +35,7 @@
   "titleDrivingSchool": "Pour un centre d'auto-école",
   "titleBarber": "Pour un coiffeur",
   "titleCapsuleRH": "Capsule RH",
+  "categoryGame": "Jeu",
   "titleTicTacToe": "Jeu du morpion",
   "contact": "CONTACT",
   "getInTouch": "DEVIS ? QUESTION ?",
@@ -45,5 +46,18 @@
   "yourMessage": "Votre message",
   "submit": "Soumettre",
   "allRightsReserved": "© 2024 Eddy Boughanmi. Tous droits réservés.",
-  "freedrivingsoon": "Vite JS & Symfony (Bientôt)"
+  "freedrivingsoon": "Vite JS & Symfony (Bientôt)",
+  "projectEnglishTchaiTitle": "My English Tchai",
+  "projectEnglishTchaiDescription": "My English Tchai est un projet innovant créé pour un client afin d'offrir une expérience unique d'apprentissage de l'anglais dans un cadre convivial d'un salon de thé. Développé avec Vite.js pour le frontend et Symfony pour le backend, ce projet repose sur une architecture moderne, incluant GraphQL et une API construite avec API Platform. Les utilisateurs peuvent réserver des séances avec des professeurs en sélectionnant des créneaux horaires adaptés. Le système de paiement est entièrement intégré grâce à Stripe, et une gestion complète du profil utilisateur est incluse, offrant une expérience fluide et personnalisée. Ce projet a été réalisé pour un client dans le cadre d'une solution pratique et moderne d’apprentissage linguistique.",
+  "projectFreeDrivingTitle": "Free Driving",
+  "projectFreeDrivingDescription": "Free Driving est un projet créé pour un client possédant une auto-école. Il illustre mes compétences en développement web et mon engagement à créer des solutions fonctionnelles et accessibles. Développé avec Vite.js pour le frontend et Symfony pour le backend, il inclut une API REST pour la gestion des données utilisateur et des cours, Auth0 pour l'authentification des utilisateurs, ainsi que Brevo Conversations pour permettre la communication en temps réel entre enseignants et élèves. Une gestion complète du profil, de l'historique des leçons, ainsi que Stripe pour le paiement en ligne, est également incluse.",
+  "titleODB": "ODB du côté soin",
+  "descriptionODB": "Le projet ODB est une application web moderne créée pour un client, combinant une gestion efficace des utilisateurs, des services et des rendez-vous avec une interface utilisateur claire et un backend sécurisé. J'ai utilisé Twig pour le rendu des pages, du CSS pour le design, Node.js pour le backend et Express Session pour la gestion sécurisée des sessions utilisateurs. Cette application est conçue pour répondre aux besoins du barbershop tout en offrant une flexibilité dans la gestion des données grâce à MongoDB. Une refonte totale en Next.js est en cours.",
+  "titleCapsuleHR": "Capsule RH",
+  "descriptionCapsuleRH": "Le projet Capsule RH est une application web de gestion des ressources humaines. Conçu avec Twig pour le rendu des pages, CSS pour le design et Node.js pour le backend, ce projet permet une gestion efficace des processus RH, adaptée aux besoins organisationnels du client.",
+  "titleMorpion": "Jeu du morpion",
+  "descriptionTicTacToe": "Le projet Jeu du morpion est un petit jeu créé avec HTML pour le rendu des pages, JavaScript pour la logique du jeu, et CSS pour le design. Ce jeu amusant est conçu pour offrir une expérience simple aux joueurs, avec un thème inspiré de l'univers Pokémon.",
+  "Close": "Fermer",
+  "GitHub": "GitHub",
+  "View": "Voir"
 }

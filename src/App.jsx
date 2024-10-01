@@ -5,7 +5,6 @@ import messages_fr from "../translations/fr.json";
 import messages_en from "../translations/en.json";
 import messages_ar from "../translations/ar.json";
 import HomePage from "../pages/Homepage";
-import Project from "../pages/Project";
 
 export const LanguageContext = createContext();
 
@@ -24,7 +23,6 @@ function App() {
       <IntlProvider locale={locale} messages={messages[locale]}>
         <Routes>
           <Route index path="/" element={<HomePage />} />
-          <Route index path="/project" element={<Project />} />
         </Routes>
       </IntlProvider>
     </LanguageContext.Provider>

@@ -3,28 +3,29 @@
   top: 0;
   background-color: #121816;
   z-index: 1000;
-  transition: background-color 0.3s ease; 
-   
-a:hover {
-      color: #48AD8F;
-    }
-    li{
-      font-family: "inter-bold";
-    }
-    #home{
-      color: #48AD8F;
-    }
-    .burger-icon {
-      font-size: 24px; 
-      color: white; 
-      cursor: pointer; 
-      transition: color 0.3s; 
-    }
-    
-    .burger-icon:active {
-      transform: scale(1.2);
-      color: #48AD8F; 
-      
-    }
-    
+  transition: background-color 0.3s ease;
+
+  a:hover {
+    color: #48ad8f;
   }
+  li {
+    font-family: "inter-bold";
+  }
+  #home {
+    color: #48ad8f;
+  }
+  .burger-icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .burger-icon:active {
+    transform: scale(1.2);
+    color: #48ad8f;
+  }
+  li.cursor-pointer:hover {
+    color: #48ad8f; /* Couleur au hover */
+  }
+}
