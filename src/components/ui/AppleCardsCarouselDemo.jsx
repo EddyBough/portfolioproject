@@ -41,7 +41,7 @@ function ProjectModal({ project, onClose }) {
         className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-50"
         onClick={onClose}
       ></div>
-      <div className="bg-custom-dark rounded-lg p-6 max-w-lg w-full z-50 shadow-lg relative max-h-[45vh] md:max-h-[90vh] overflow-y-auto scrollbar scrollbar-track-gray-300 lg:mt-32">
+      <div className="bg-custom-dark rounded-lg p-6 max-w-lg w-full z-50 shadow-lg relative max-h-[45vh] md:max-h-[90vh] overflow-y-auto scrollbar scrollbar-thumb-black lg:mt-32">
         <img
           src={project.image}
           alt={project.title}
