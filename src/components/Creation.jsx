@@ -13,7 +13,7 @@ const Creation = () => {
       <h4 id="latestProjectTitle" className="text-white md:text-4xl text-2xl">
         <FormattedMessage id="latestProjectTitle" />
       </h4>
-      <hr className="custom-hr border-t-2 border-b-2 text-center md:w-1/6 w-1/3 my-4 mx-auto" />
+      <hr className="custom-hr border-t-2 border-b-2 text-center md:w-1/6 lg:w-1/12 w-1/3 my-4 mx-auto" />
       <AppleCardsCarouselDemo />
     </div>
   );

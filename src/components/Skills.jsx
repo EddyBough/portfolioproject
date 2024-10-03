@@ -33,10 +33,10 @@ const Skills = () => {
   return (
     <div className="skills text-white flex flex-col justify-center">
       <div className="flex justify-center items-center">
-        <h2 className="mt-8">SKILLS</h2>
+        <h2 className="mt-4 h2txt text-xl">SKILLS</h2>
         <span
           id="arrow"
-          className={`ml-2 mt-8 animate-bounce md:hidden transform`}
+          className={`ml-2 mt-4 animate-bounce md:hidden transform`}
           onClick={toggleSkills}
         >
           &#9660;
@@ -45,13 +45,13 @@ const Skills = () => {
       <div className="mt-1">
         <hr className="custom-hr border-t-2 border-b-2 text-center md:w-1/6 w-1/3 my-4 mx-auto" />
         {/* Affichage skills en grand écran et caché en petit écran */}
-        <div className="hidden md:grid m-28 mt-10 justify-items-center grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        <div className="hidden p-3 md:grid md:m-8 m-28 mt-10 justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {skillsData.map((skill) => (
             <div key={skill.name} className="flex flex-col items-center">
               <img
                 src={skill.imgSrc}
                 alt={`${skill.name} picture`}
-                className={`mt-2 h-20`}
+                className={`mt-2 h-16 md:h-16 lg:h-24`}
               />
               <p className="mt-2">{skill.name}</p>
             </div>
