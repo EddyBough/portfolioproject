@@ -36,7 +36,10 @@ module.exports = {
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [
+    require("tailwind-scrollbar"), // plugin scrollbar
+    addVariablesForColors,
+  ],
 };
 
 function addVariablesForColors({ addBase, theme }) {

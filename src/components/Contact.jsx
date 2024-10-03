@@ -34,7 +34,7 @@ function Contact() {
       className="contact lg:pt-28 pt-20 pb-9 p-8 md:flex"
     >
       <div className="md:w-1/2 flex justify-start md:ml-10 md:order-2">
-        <div className="md:w-1/2 flex flex-col md:justify-center">
+        <div className="lg:w-1/2 flex flex-col md:justify-center">
           <div className="flex flex-col sm:justify-center text-center space-y-3 md:text-left lg:text-left md:m-0 m-5">
             <h3>
               <FormattedMessage id="contact" />
@@ -46,15 +46,9 @@ function Contact() {
             <p className="text-white">
               <FormattedMessage id="contactDescription" />
             </p>
-            <div className="flex flex-row md:justify-start lg:space-x-2 space-x-2 md:space-x-1 justify-center items-end flex-wrap">
+            <div className="flex flex-row md:justify-start lg:space-x-2 space-x-2 justify-center items-end">
               <img className="w-10 lg:ml-1" src="img/email.svg" alt="email" />
-              <p className="text-white">ebdeveloper@outlook.fr</p>
-            </div>
-            <div className="flex flex-row md:justify-start space-x-1 justify-center items-end flex-wrap">
-              <img src="img/localisation.svg" alt="email" />
-              <p className="text-white">
-                <FormattedMessage id="location" />
-              </p>
+              <p className="text-white">: ebdeveloper@outlook.fr</p>
             </div>
           </div>
         </div>

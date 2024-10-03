@@ -2,11 +2,11 @@ import { FormattedMessage } from "react-intl";
 
 const About = () => {
   return (
-    <div id="aboutMeSection" className="about md:flex flex-row">
+    <div id="aboutMeSection" className="about flex flex-col lg:flex-row">
       {/* Div de gauche */}
       <div className="md:h-auto">
         <img
-          className="h-auto lg:h-[800px] lg:w-[550px] md:h-full md:w-[800px] md:object-cover lg:object-cover"
+          className="h-auto lg:h-[800px] lg:w-[550px] md:w-screen md:h-full md:object-cover lg:object-cover"
           src="/img/onthemoon2.png"
           alt="futurepicture"
         />
@@ -14,7 +14,7 @@ const About = () => {
 
       {/* Div de droite */}
       <div className="flex flex-col justify-center items-center md:items-start md:ml-10">
-        <div className="space-y-8 text-center md:mt-0 mt-10 md:text-left m-2">
+        <div className="space-y-8 text-center md:mt-10 mt-10 md:text-left m-2">
           <h3 className="text-xl">
             <FormattedMessage id="AboutMe" />
           </h3>

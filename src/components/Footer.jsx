@@ -3,70 +3,11 @@ import { FormattedMessage } from "react-intl";
 
 const Footer = () => {
   return (
-    <div className="footer flex flex-col h-96 space-y-10 items-center justify-center">
+    <div className="footer flex flex-col h-96 space-y-8 items-center justify-center">
       <div className="">
         <a href="/">
-          <img className="w-16 h-16" src="/img/logo1v3.png" alt="logo" />
+          <img className="w-26 h-20" src="/img/logo1v3.png" alt="logo" />
         </a>
-      </div>
-      <div>
-        <ul className="flex flex-row md:justify-center md:space-x-4 space-x-3 md:text-sm text-[10px] text-white">
-          <li className="cursor-pointer">
-            <ScrollLink
-              to="presentationSection"
-              smooth={true}
-              duration={500}
-              activeClass="active-link"
-              offset={-130}
-            >
-              <FormattedMessage id="home" />
-            </ScrollLink>
-          </li>
-          <li className="cursor-pointer">
-            <ScrollLink
-              to="aboutMeSection"
-              smooth={true}
-              duration={500}
-              activeClass="active-link"
-              offset={-70}
-            >
-              <FormattedMessage id="aboutMe" />
-            </ScrollLink>
-          </li>
-          <li className="cursor-pointer">
-            <ScrollLink
-              to="serviceSection"
-              smooth={true}
-              duration={500}
-              activeClass="active-link"
-              offset={-90}
-            >
-              <FormattedMessage id="services" />
-            </ScrollLink>
-          </li>
-          <li className="cursor-pointer">
-            <ScrollLink
-              to="portfolioSection"
-              smooth={true}
-              duration={500}
-              activeClass="active-link"
-              offset={-130}
-            >
-              <FormattedMessage id="portfolio" />
-            </ScrollLink>
-          </li>
-          <li className="cursor-pointer">
-            <ScrollLink
-              to="contactSection"
-              smooth={true}
-              duration={500}
-              activeClass="active-link"
-              offset={-80}
-            >
-              <FormattedMessage id="contactMe" />
-            </ScrollLink>
-          </li>
-        </ul>
       </div>
       <div className="flex flex-row justify-center md:space-x-8 space-x-6">
         <a
