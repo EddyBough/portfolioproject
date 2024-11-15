@@ -103,6 +103,16 @@ const data = [
     category: <FormattedMessage id="categoryWebApp" defaultMessage="Web App" />,
     title: (
       <FormattedMessage
+        id="titleGlycowatch"
+        defaultMessage="Traqueur de glycémie"
+      />
+    ),
+    src: "/img/glycowatchpresentation.png",
+  },
+  {
+    category: <FormattedMessage id="categoryWebApp" defaultMessage="Web App" />,
+    title: (
+      <FormattedMessage
         id="titleEnglishLearning"
         defaultMessage="For learning English"
       />
@@ -131,17 +141,24 @@ const data = [
     title: <FormattedMessage id="titleCapsuleRH" defaultMessage="Capsule RH" />,
     src: "/img/capsulerh-presentation.svg",
   },
-  {
-    category: <FormattedMessage id="categoryGame" defaultMessage="Game" />,
-    title: (
-      <FormattedMessage id="titleTicTacToe" defaultMessage="Tic Tac Toe" />
-    ),
-    src: "/img/tictactoe-presentation.svg",
-  },
 ];
 
 // Project details used for the modal content
 const projectContent = [
+  {
+    title: "projectGlycowatchTitle",
+    description: "projectGlycowatchDescription",
+    badge: "Next JS/Prisma/PostgreSQL",
+    image: "/img/capture-presentation-glycowatch-2.svg",
+    techLogos: [
+      "/img/nextjs-icon.png",
+      "/img/prisma.svg",
+      "/img/typescript-logo.svg",
+      "/img/postgresql-logo.svg",
+    ],
+    link: "https://github.com/EddyBough/GlycoWatch",
+    view: "https://glyco-watch.vercel.app/home",
+  },
   {
     title: "projectEnglishTchaiTitle",
     description: "projectEnglishTchaiDescription",
@@ -154,7 +171,7 @@ const projectContent = [
       "/img/js.svg",
       "/img/php.svg",
       "/img/apiplatform.svg",
-      "/img/sql.svg",
+      "/img/postgresql-logo.svg",
       "/img/symfony.svg",
       "/img/docker.svg",
     ],
@@ -173,7 +190,7 @@ const projectContent = [
       "/img/js.svg",
       "/img/php.svg",
       "/img/apiplatform.svg",
-      "/img/sql.svg",
+      "/img/postgresql-logo.svg",
       "/img/symfony.svg",
       "/img/docker.svg",
     ],
@@ -184,7 +201,12 @@ const projectContent = [
     description: "descriptionODB",
     badge: "Twig & Node JS",
     image: "/img/odbscreen.svg",
-    techLogos: ["/img/twig.png", "/img/css3logo.svg", "/img/nodejs.png"],
+    techLogos: [
+      "/img/twig.png",
+      "/img/css3logo.svg",
+      "/img/nodejs.png",
+      "/img/mongodb-icon-2.svg",
+    ],
     link: "https://github.com/EddyBough/ODBproject",
   },
   {
@@ -192,15 +214,12 @@ const projectContent = [
     description: "descriptionCapsuleRH",
     badge: "Twig & Node JS",
     image: "/img/capsulerh-presentation.svg",
-    techLogos: ["/img/twig.png", "/img/css3logo.svg", "/img/nodejs.png"],
+    techLogos: [
+      "/img/twig.png",
+      "/img/css3logo.svg",
+      "/img/nodejs.png",
+      "/img/mongodb-icon-2.svg",
+    ],
     link: "https://github.com/EddyBough/rhproject",
-  },
-  {
-    title: "titleMorpion",
-    description: "descriptionTicTacToe",
-    badge: "Twig & Node JS",
-    image: "/img/tictactoe-presentation.svg",
-    techLogos: ["/img/html5.svg", "/img/css3logo.svg", "/img/js.png"],
-    link: "https://github.com/EddyBough/morpion",
   },
 ];

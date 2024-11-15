@@ -8,25 +8,20 @@ const Skills = () => {
   };
 
   const skillsData = [
-    { name: "HTML", imgSrc: "/img/html5.svg" },
-    { name: "CSS", imgSrc: "/img/css3logo.svg" },
+    { name: "TypeScript", imgSrc: "/img/typescript-logo.svg" },
     { name: "JavaScript", imgSrc: "/img/js.png" },
     { name: "React JS & Native", imgSrc: "/img/reacticon.svg" },
     { name: "Next JS", imgSrc: "/img/nextjs-icon.png" },
     { name: "Prisma", imgSrc: "/img/prisma.svg" },
-    { name: "Bootstrap", imgSrc: "/img/bootstrap.png" },
     { name: "Twig", imgSrc: "/img/twig.png" },
     { name: "Sass", imgSrc: "/img/sass.svg" },
     { name: "Symfony", imgSrc: "/img/symfony.svg" },
     { name: "Tailwind", imgSrc: "/img/tailwind.svg" },
     { name: "Node JS", imgSrc: "/img/nodejs.png" },
-    { name: "Mongo DB with Mongoose", imgSrc: "/img/mongodb-icon-2.svg" },
-    { name: "SQL", imgSrc: "/img/sql.svg" },
-    { name: "Wordpress", imgSrc: "/img/wordpress.svg" },
+    { name: "Mongo DB", imgSrc: "/img/mongodb-icon-2.svg" },
+    { name: "POSTGRE SQL", imgSrc: "/img/postgresql-logo.svg" },
     { name: "Docker", imgSrc: "/img/docker.svg" },
     { name: "Figma", imgSrc: "/img/figma.png" },
-    { name: "API Platform", imgSrc: "/img/apiplatform.svg" },
-    { name: "GraphQL", imgSrc: "/img/graphql.svg" },
     { name: "GitHub", imgSrc: "/img/github.svg" },
   ];
 
