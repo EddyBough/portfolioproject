@@ -30,11 +30,7 @@ export function AuroraBackgroundDemo() {
           </p>
         </div>
         <div className=" lg:py-8 md:py-8 py-7">
-          <ButtonCV
-            href="/img/mycurriculumvitae.pdf"
-            className=""
-            text={<FormattedMessage id="CV" />}
-          />
+          <ButtonCV href="/img/MonCV.pdf" text={<FormattedMessage id="CV" />} />
         </div>
       </motion.div>
     </AuroraBackground>

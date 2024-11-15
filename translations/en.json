@@ -30,6 +30,9 @@
   "modernDesign": "Modern Design",
   "portfolioTitle": "PORTFOLIO",
   "latestProjectTitle": "Latest Projects",
+  "titleGlycowatch": "Blood Sugar Tracker",
+  "projectGlycowatchDescription": "GlycoWatch® is a comprehensive and secure web application designed for individuals managing diabetes or tracking their blood sugar levels. Users can record daily measurements in an interactive calendar, monitor their progress through dynamic charts, and generate PDF reports.Built with Next.js, TypeScript, Prisma, and leveraging PostgreSQL for data management, the application ensures a seamless user experience and top-notch data security. GlycoWatch® is designed to grow, with exciting new features planned for future updates.",
+  "projectGlycowatchTitle": "GlycoWatch®",
   "categoryWebApp": "Web App",
   "titleEnglishLearning": "For learning english",
   "titleDrivingSchool": "For Driving School Center",
@@ -54,8 +57,6 @@
   "descriptionODB": "ODB is a modern web application created for a client, combining efficient user, service, and appointment management with a clear user interface and secure backend. I used Twig for page rendering, CSS for design, Node.js for the backend, and Express Session for secure session management. This app is designed to meet the needs of the barbershop, offering flexibility in data management through MongoDB. A complete revamp in Next.js is underway.",
   "titleCapsuleHR": "Capsule HR",
   "descriptionCapsuleRH": "Capsule HR is a web application designed for human resource management. The project uses Twig for page rendering, CSS for design, and Node.js for the backend. This project provides an efficient way to manage HR processes and is tailored to meet the organizational needs of the client.",
-  "titleMorpion": "Tic Tac Toe Game",
-  "descriptionTicTacToe": "The Tic Tac Toe project is a small game created using HTML for page rendering, JavaScript for scripting the game logic, and CSS for the design. This fun project is designed to give players a simple and enjoyable gaming experience, with an added theme based on the Pokémon universe.",
   "Close": "Close",
   "GitHub": "GitHub",
   "View": "View"
